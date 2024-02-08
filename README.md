@@ -8,7 +8,7 @@ A a [Node.js](https://nodejs.org) [xvideos.com](xvideos.com) API library.
 
 ### Install
 ```bash
-$ npm install @rodrigogs/xvideos
+$ npm install xvideosx
 ```
 
 ### Usage
@@ -185,4 +185,4 @@ const detail = await xvideos.videos.details(fresh.videos[0]); /**
     ```
 
 ### License
-[Licence](https://github.com/rodrigogs/xvideos/blob/master/LICENSE) © Rodrigo Gomes da Silva
+[Licence](https://github.com/4CROS2/xvideos/blob/main/LICENSE) © Yeferson Yair Tejada Rivas
