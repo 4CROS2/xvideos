@@ -13,7 +13,12 @@ $ npm install xvideosx
 
 ### Usage
 ```javascript
-const xvideos = require('@rodrigogs/xvideos');
+const xvideos = require('xvideosx');
+
+or 
+
+import xvideos from 'xvideosx';
+
 
 //-- Inside an async function --//
 

@@ -1,7 +1,7 @@
 {
   "name": "xvideosx",
   "description": "xvideos.com api implementation.",
-  "version": "1.4.2",
+  "version": "1.4.3",
   "main": "index.js",
   "license": "BSD-3-Clause",
   "repository": {
