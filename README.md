@@ -57,7 +57,14 @@ const detail = await xvideos.videos.details(fresh.videos[0]); /**
     thumb69,
     thumbSlide,
     thumbSlideBig
-  }
+  },
+  videos:{
+    title,
+        duration,
+        channel,
+        thumbNail,
+        url,
+  }//related videos
 } **/
 ```
 
