@@ -30,6 +30,20 @@ console.log(fresh.pagination.pages); // [1, 2, 3, 4, 5...]
 console.log(fresh.hasNext()); // true
 console.log(fresh.hasPrevious()); // false
 
+const newFresh = await xvideos.videos.newFresh({ page: 1 });
+console.log(fresh.videos)
+/*{
+    title,
+    url,
+    thumbNail,
+    preview,
+    path,
+    duration,
+    channel,
+    views,
+  };
+*/
+
 const nextPage = await fresh.next();
 console.log(nextPage.pagination.current); // 2
 console.log(nextPage.hasNext()); // true
