@@ -30,6 +30,20 @@ console.log(fresh.pagination.pages); // [1, 2, 3, 4, 5...]
 console.log(fresh.hasNext()); // true
 console.log(fresh.hasPrevious()); // false
 
+const newFresh = await xvideos.videos.newFresh({ page: 1 });
+console.log(fresh.videos)
+/*{
+    title,
+    url,
+    thumbNail,
+    preview,
+    path,
+    duration,
+    channel,
+    views,
+  };
+*/
+
 const nextPage = await fresh.next();
 console.log(nextPage.pagination.current); // 2
 console.log(nextPage.hasNext()); // true
@@ -40,7 +54,8 @@ console.log(previousPage.pagination.current); // 1
 console.log(previousPage.hasNext()); // true
 console.log(previousPage.hasPrevious()); // tfalse
 
-const detail = await xvideos.videos.details(fresh.videos[0]); /**
+const url = '/video.ucadpthfed9/me_folle_a_la_mama_de_mi_novia_-_valentina_bellucci_jason_pierce'
+const detail = await xvideos.videos.details({url}); /**
 {
   title,
   duration,
@@ -57,7 +72,14 @@ const detail = await xvideos.videos.details(fresh.videos[0]); /**
     thumb69,
     thumbSlide,
     thumbSlideBig
-  }
+  },
+  videos:{
+    title,
+        duration,
+        channel,
+        thumbNail,
+        url,
+  }//related videos
 } **/
 ```
 
@@ -190,4 +212,4 @@ const detail = await xvideos.videos.details(fresh.videos[0]); /**
     ```
 
 ### License
-[Licence](https://github.com/4CROS2/xvideos/blob/main/LICENSE) © Yeferson Yair Tejada Rivas
+[Licence](https://github.com/4CROS2/xvideos/blob/main/LICENSE) © 4CROS2
