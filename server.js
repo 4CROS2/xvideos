@@ -5,7 +5,7 @@ async function getData() {
         path:'/sexmex_xxx',
         page:1
     }).then((data)=>console.log(data)) */
-    await xd.videos.newFresh({page:2}).then((video)=>console.log(video))
+    await xd.videos.newFresh({page:1}).then((video)=>console.log(video))
 }
 
 getData()
